@@ -3,8 +3,7 @@
     public class PointOfInterestDtl
     {
         public int Id { get; set; }
-        public string Name { get; set; }    
-        public string Description { get; set; } 
-        public ICollection<PointOfInterestDtl> PointOfInterests { get; set;} = new List<PointOfInterestDtl>();
+        public string Name { get; set; } = string.Empty;
+        public string? Description { get; set; }
     }
 }
